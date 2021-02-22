@@ -38,3 +38,6 @@ This can be easily extended to send parents push notifications, emails or a dedi
 Here is a sample screenshoot of what happens on my mom's phone, when I leave my home with my phone (a preconfigured GeoFence)
 
 <img src="hyper-safety.png" width="200"  />
+
+
+Needless to say, this idea is not limited to parents tracking their kids, but can be extended to a multitude of trip-tracking scenarios. For eg: travel and tourism, adventure sport enthusiasts in remote or dangerous locations, tracking your pet, spying?
