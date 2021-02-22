@@ -15,9 +15,9 @@ import hashlib
 import hmac
 import requests
 
-account_id = "E-9uKtxUW_ull4ejgUtyl_phnjc"
-secret_key = "HtJiCeeSivCaRiPROQSWrQjFivcPoxGTtrrcGO_qES2y-t_lL-MTCA"
-device_id = "0DA947BB-D69D-420C-AB68-5EE2005779CA"
+account_id = "your-account-id" #insert
+secret_key = "your-secret-key" #insert
+device_id = "your-device-id" #insert
 hypertrack = Client(account_id, secret_key)
 hypertrack.devices.start_tracking(device_id)
 
@@ -68,8 +68,8 @@ def create_task():
 
             # send the update to the parent
             url = "https://www.fast2sms.com/dev/bulkV2"
-            querystring = {"authorization":"KzT4d3E2Mkf6Gn57iXjORvh1q9ZyaLmUQptexsH8VgrScbPDw0lSiKGLBmRdwPJaFfVpcjEIvYC8Wbxe",
-            "message":out,"language":"english","route":"q","numbers":"9011220099"}
+            querystring = {"authorization":"your-auth-key",
+            "message":out,"language":"english","route":"q","numbers":"your-phone-number"} #insert
             print("geofence is = ", out)
             headers = {'cache-control': "no-cache" }
             response = requests.request("GET", url, headers=headers, params=querystring)
